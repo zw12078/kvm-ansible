@@ -1,0 +1,25 @@
+---
+- name: 正在收集主机信息...
+  win_shell: echo "{{ '-'.join(ansible_ip_addresses[0].split('.')[-2:]) }}"
+  register: symbol
+
+- name: 开始生成随机码...
+  local_action: command /usr/bin/openssl rand -base64 24
+  register: password
+
+- name: 正在组织密码...
+  local_action: command /usr/bin/echo "{{ password.stdout}}{{ symbol.stdout }}"
+  register: passwd
+- debug: var="passwd.stdout"
+
+- name: 开始更改win密码
+  win_user: name={{ change_user }} password={{ passwd.stdout }} state=present groups=Administrators update_password=always password_never_expires=yes
+
+- name: 正在保存密码..
+  local_action: lineinfile  
+                dest="{{ passwd_file_path }}"  
+                line="OS：Windows2012R2  
+                IP：{{ inventory_hostname }}  
+                User：{{ change_user }}  
+                Password：{{ password.stdout }}{{symbol.stdout}}" 
+                create=yes state=present

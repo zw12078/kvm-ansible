@@ -1,0 +1,3 @@
+---
+- name: 准备导入公钥到目标主机...
+  include: push_key.yml

@@ -1,0 +1,4 @@
+---
+- name: 准备更新windows主机密码...
+  include: change_pass_for_windows.yml
+  

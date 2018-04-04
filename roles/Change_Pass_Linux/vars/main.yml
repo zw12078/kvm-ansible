@@ -1,0 +1,3 @@
+passwd_file_path: "/home/zw12078/文档/vm-pass/{{ ansible_distribution }}_{{ change_user }}_11_24.txt"
+# passwd_file_path: "/home/zw12078/文档/vm-pass/backdb.txt"
+# passwd_file_path: "/home/zw12078/文档/vm-pass/zhangyun.txt"

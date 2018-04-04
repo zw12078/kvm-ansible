@@ -1,0 +1,281 @@
+vm_info:
+  # - dir: data
+  #   name: webrtc_liubaogang-16.101
+  #   ip: 192.168.16.101
+  #   gw: 192.168.16.1   
+
+
+  #  - dir: data
+  #    name: Samba-16.181
+  #    ip: 192.168.16.181
+  #    gw: 192.168.16.1
+
+
+  #  - dir: data
+  #    name: shangxijun-test-16.105
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.105
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: shangxijun-test-16.106
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.106
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: shangxijun-test-16.107
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.107
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: shangxijun-test-16.108
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.108
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: shangxijun-test-16.109
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.109
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: shangxijun-test-16.110
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.110
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: shangxijun-test-16.142
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.142
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: shangxijun-test-16.143
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.143
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: shangxijun-test-16.144
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.144
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: test-changepass-16.231
+  #    ip: 192.168.16.231
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: test-changepass-16.233
+  #    ip: 192.168.16.233
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.111
+  #    ip: 192.168.16.111
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.112
+  #    ip: 192.168.16.112
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.113
+  #    ip: 192.168.16.113
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.114
+  #    ip: 192.168.16.114
+  #    gw: 192.168.16.1
+## 白立涛
+  #  - dir: data
+  #    name: bailitao-test-16.128
+  #    ip: 192.168.16.128
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.129
+  #    ip: 192.168.16.129
+  #    gw: 192.168.16.1
+
+
+  #  - dir: data
+  #    name: bailitao-test-16.130
+  #    ip: 192.168.16.130
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.131
+  #    ip: 192.168.16.131
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.132
+  #    ip: 192.168.16.132
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.133
+  #    ip: 192.168.16.133
+  #    gw: 192.168.16.1
+
+
+  #  - dir: data
+  #    name: bailitao-test-16.134
+  #    ip: 192.168.16.134
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: bailitao-test-16.135
+  #    ip: 192.168.16.135
+  #    gw: 192.168.16.1
+
+
+  #  - dir: data
+  #    name: download-apps-16.103
+  #    ip: 192.168.16.103
+  #    gw: 192.168.16.1
+
+  
+  # - dir: data
+  #   name: kubernetes-deploy-16.231
+  #   template: CentOS-7.3_Temp
+  #   ip: 192.168.16.231
+  #   gw: 192.168.16.1
+
+    - dir: data
+      name: k8s-etcd-16.232
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.232
+      gw: 192.168.16.1
+
+    - dir: data
+      name: k8s-etcd-16.233
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.233
+      gw: 192.168.16.1
+  
+    - dir: data
+      name: k8s-master-16.234
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.234
+      gw: 192.168.16.1
+
+    - dir: data
+      name: k8s-master-16.235
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.235
+      gw: 192.168.16.1
+
+    - dir: data
+      name: k8s-master-16-236
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.236
+      gw: 192.168.16.1
+
+    - dir: data
+      name: k8s-node-16.237
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.237
+      gw: 192.168.16.1
+
+    - dir: data
+      name: k8s-node-16.238
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.238
+      gw: 192.168.16.1
+
+    - dir: data
+      name: k8s-node-16.239
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.239
+      gw: 192.168.16.1
+
+    - dir: data
+      name: k8s-node-16.240
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.240
+      gw: 192.168.16.1
+  
+    - dir: data
+      name: k8s-node-16.241
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.241
+      gw: 192.168.16.1
+
+   
+    - dir: data
+      name: k8s-node-16.242
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.242
+      gw: 192.168.16.1
+  
+    - dir: data
+      name: k8s-node-16.243
+      template: CentOS-7.3_Temp
+      ip: 192.168.16.243
+      gw: 192.168.16.1
+
+
+  #  - dir: data
+  #    name: network_traffic-monitor-16.100
+  #    ip: 192.168.16.100
+  #    gw: 192.168.16.1
+
+
+  #  - dir: data
+  #    name: jiajinghui-16.138
+  #    ip: 192.168.16.138
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: jiajinghui-16.139
+  #    ip: 192.168.16.139
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: jiajinghui-16.140
+  #    ip: 192.168.16.140
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: jiajinghui-16.141
+  #    ip: 192.168.16.141
+  #    gw: 192.168.16.1
+
+  #  - dir: data
+  #    name: lidingxiang-16.202
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.202
+  #    gw: 192.168.16.1
+     
+  #  - dir: data
+  #    name: test-16.230
+  #    template: CentOS-7.3_Temp
+  #    ip: 192.168.16.230
+  #    gw: 192.168.16.1
+          
+win_info:
+#   - dir: data
+#     name: test-download-16-161
+#     ip: 192.168.16.161
+#     gw: 192.168.16.1
+
+#    - dir: data
+#      name: test-changepass-16.232
+#      ip: 192.168.16.232
+#      gw: 192.168.16.1
+
+
+  #  - dir: data
+  #    name: test-mahuichang-16.137
+  #    ip: 192.168.16.137
+  #    gw: 192.168.16.1
+

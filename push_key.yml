@@ -1,0 +1,7 @@
+---
+- hosts: all
+  roles:
+        - Push_Host_Key
+
+# 1.执行前手动创建密钥对
+# 2.需要切换到root用户执行此剧本

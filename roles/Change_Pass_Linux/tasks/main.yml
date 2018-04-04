@@ -1,0 +1,5 @@
+---
+- name: 准备更新linux主机密码...
+  include: change_pass_for_linux.yml 
+  
+  

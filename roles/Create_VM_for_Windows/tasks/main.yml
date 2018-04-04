@@ -1,0 +1,5 @@
+---
+- name: 开始获取windows虚拟机信息...
+  include: idc-creare-win.yml  vm_item={{ item }}
+  with_items:
+    - "{{ win_info }}"

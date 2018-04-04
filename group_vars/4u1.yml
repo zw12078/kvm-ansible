@@ -1,0 +1,398 @@
+vm_info:
+  # - dir: 4u1
+  #   name: Neo4j-101-91
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.91
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Base-101-112
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.112
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Dev1-101-122
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.122
+  #   gw: 10.100.101.1 
+
+  # - dir: 4u1
+  #   name: Openfire-101-142
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.142
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Search-101-143
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.143
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: RTPM-101-144
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.144
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: BigData-101-161
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.161
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: BigData-101-162
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.162
+  #   gw: 10.100.101.1
+
+
+  # - dir: 4u1
+  #   name: haproxy-outside-105-134
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.105.134
+  #   gw: 10.100.105.1
+
+  # - dir: 4u1
+  #   name: haproxy-outside-105-140 
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.105.140
+  #   gw: 10.100.105.1
+
+  # - dir: 4u1
+  #   name: Mariadb-101.41	
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.41
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Mariadb-101.42
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.42
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Redis-101-102
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.102
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Redis-101-103 
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.103
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Mariadb-101.43
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.43
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Mariadb-101.44
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.44
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Mariadb-101.45
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.45
+  #   gw: 10.100.101.1
+ 
+ 
+  # - dir: 4u1
+  #   name: mariadb-101-146
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.146
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: mariadb-101-46
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.46
+  #   gw: 10.100.101.1
+
+
+  # - dir: 4u1
+  #   name: guowei-mdb-101-148
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.148
+  #   gw: 10.100.101.1
+
+# ###张成祥
+#   - dir: 4u1
+#     name: zhangchengxiang-mdb-101.22
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.101.22
+#     gw: 10.100.101.1
+    
+#   - dir: 4u1
+#     name: zhangchengxiang-101.23
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.101.23
+#     gw: 10.100.101.1
+
+#   - dir: 4u1
+#     name: zhangchengxiang-101.24
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.101.24
+#     gw: 10.100.101.1
+
+# ###马会昌
+#   - dir: 4u1
+#     name: mahuichang-mdb-101.25
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.101.25
+#     gw: 10.100.101.1
+
+#   - dir: 4u1
+#     name: mahuichang-101.26
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.101.26
+#     gw: 10.100.101.1
+
+
+# ###李志
+
+#   - dir: 4u1
+#     name: lizhi-101.27
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.101.27
+#     gw: 10.100.101.1 
+
+#   - dir: 4u1
+#     name: lizhi-mdb-101.28
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.101.28
+#     gw: 10.100.101.1
+
+#   - dir: 4u1
+#     name: lizhi-mdb-101.29
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.101.29
+#     gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Dev2-101-133
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.133
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Business-101-152
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.152
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: test-101.130
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.130
+  #   gw: 10.100.101.1
+
+
+  # - dir: 4u1
+  #   name: download-app-101-124
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.124
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: opr-101-172
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.172
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Dev1-101-125
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.125
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Dev1-101-126
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.126
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Dev1-101-126
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.126
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Dev1-101-127
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.127
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Base-101-114 
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.114
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Base-101-115 
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.115
+  #   gw: 10.100.101.1
+
+
+  # - dir: 4u1
+  #   name: Base-101-116 
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.116
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: opr-101-173-zhoubinjing
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.101.173
+  #   gw: 10.100.101.1
+
+  #  - dir: 4u1
+  #    name: xieyadong-mqtt-101.128 
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.101.128
+  #    gw: 10.100.101.1
+
+
+  #  - dir: 4u1
+  #    name: BigData-101-164
+  #    template: CentOS-7.3_Temp
+  #    ip: BigData-102-164
+  #    gw: 10.100.101.1
+
+
+  #  - dir: 4u1
+  #    name: BigData-101-165
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.101.165
+  #    gw: 10.100.101.1
+
+  #  - dir: 4u1
+  #    name: daidongyun-101-233
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.101.233
+  #    gw: 10.100.101.1
+
+
+  #  - dir: 4u1
+  #    name: BigData-101-163 
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.101.163
+  #    gw: 10.100.101.1
+
+  #  - dir: 4u1
+  #    name: BigData-101-166
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.101.166
+  #    gw: 10.100.101.1
+
+  #  - dir: 4u1
+  #    name: BigData-101-167
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.101.167
+  #    gw: 10.100.101.1
+     
+
+  #  - dir: 4u1
+  #    name: opr-101-174 
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.101.174
+  #    gw: 10.100.101.1
+
+  #  - dir: 4u1
+  #    name: Business-101-153
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.101.153
+  #    gw: 10.100.101.1
+
+   - dir: 4u1
+     name: mongodb-101.53
+     template: CentOS-7.3_Temp
+     ip: 10.100.101.53
+     gw: 10.100.101.1
+
+win_info:
+
+  #  - dir: 4u1
+  #    name: Base-101-111
+  #    template: windows
+  #    ip: 10.100.101.111
+  #    gw: 10.100.101.1
+
+  #  - dir: 4u1
+  #    name: Dev1-101-121
+  #    template: windows
+  #    ip: 10.100.101.121
+  #    gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Dev2-101-131
+  #   template: windows
+  #   ip: 10.100.101.131
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Dev3-101-141
+  #   template: windows
+  #   ip: 10.100.101.141
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Opr-101-171
+  #   template: windows
+  #   ip: 10.100.101.171
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: Business-101-151
+  #   template: windows
+  #   ip: 10.100.101.151
+  #   gw: 10.100.101.1
+
+  # - dir: 4u1
+  #   name: guowei-rpc-101-147
+  #   template: windows
+  #   ip: 10.100.101.147
+  #   gw: 10.100.101.1
+
+  #  - dir: 4u1
+  #    name: Base-101-111
+  #    template: windows
+  #    ip: 10.100.101.111
+  #    gw: 10.100.101.1
+
+# ###马会昌
+#    - dir: 4u1
+#      name: mahuichang-101-20
+#      template: windows
+#      ip: 10.100.101.20
+#      gw: 10.100.101.1
+
+# ###李志
+#    - dir: 4u1
+#      name: lizhi-101-21
+#      template: windows
+#      ip: 10.100.101.21
+#      gw: 10.100.101.1
+
+
+  #  - dir: 4u1
+  #    name: Dev3-101-140 
+  #    template: windows
+  #    ip: 10.100.101.140
+  #    gw: 10.100.101.1
+
+
+  #  - dir: 4u1
+  #    name: Dev3-101-149
+  #    template: windows
+  #    ip: 10.100.101.149
+  #    gw: 10.100.101.1

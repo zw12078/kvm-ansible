@@ -1,0 +1,24 @@
+vm_info:
+  # - dir: data
+  #   name: zabbix-test-100.230
+  #   type: linux
+  #   ip: 10.100.100.230
+  #   gw: 10.100.100.1
+
+  # - dir: data
+  #   name: zabbix-test-100.231
+  #   type: linux
+  #   ip: 10.100.100.231
+  #   gw: 10.100.100.1
+
+  # - dir: data
+  #   name: zabbix-test-100.232
+  #   type: linux
+  #   ip: 10.100.100.232
+  #   gw: 10.100.100.1
+
+  - dir: data
+    name: ansible-100.233
+    type: linux
+    ip: 10.100.100.233
+    gw: 10.100.100.1

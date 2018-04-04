@@ -1,0 +1,13 @@
+vm_info:
+  # - dir: data
+  #   name: download-app-0.103
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.19.0.103
+  #   gw: 172.19.0.1
+
+  - dir: data
+    name: download-app-0.138
+    template: CentOS-7.3_Temp
+    ip: 172.19.0.138
+    gw: 172.19.0.1
+    

@@ -1,0 +1,244 @@
+vm_info:
+  # - dir: data
+  #   name: BigData-115-113
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.113
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: BigData-115-114
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.114
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: BigData-115-115
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.115
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: elk-elasticsearch-115-134
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.134
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: elk-kibana-115-136
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.136
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: elk-logstash-115-138
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.138
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: nexus-115-139
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.139
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: Dev1-115-66
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.66
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: Base-115-55 
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.55
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: Base-115-56
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.56
+  #   gw: 172.18.115.1
+
+
+  # - dir: data
+  #   name: Dev3-115-94
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.94
+  #   gw: 172.18.115.1
+
+
+  # - dir: data
+  #   name: Dev3-115-68
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.68
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: Dev1-115-186
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.187
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: Base-115-59
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.59
+  #   gw: 172.18.115.1
+
+
+  # - dir: data
+  #   name: boss_wang-115.212
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.212
+  #   gw: 172.18.115.1
+
+
+  # - dir: data
+  #   name: boss_wang-115.213
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.213
+  #   gw: 172.18.115.1
+
+#shangxijun
+
+  # - dir: data
+  #   name: BigData-115-116
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.116
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: BigData-115-117
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.117
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: BigData-115-118
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.118
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: BigData-115-119
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.119
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: BigData-115-160
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.160
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: liurui-115-137
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.137
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: liurui-115-138
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.138
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: liurui-115-139
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.139
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: dev1-115-189
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.189
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: test-115-251
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.251
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: test-115-252
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.252
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: test-115-253
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.253
+  #   gw: 172.18.115.1
+
+
+  # - dir: data
+  #   name: Dev2-115-74
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.74
+  #   gw: 172.18.115.1
+
+## 谢亚东 mqtt
+
+
+
+  # - dir: data
+  #   name: Dev1-115-172 
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.172
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: Dev1-115-173 
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.173
+  #   gw: 172.18.115.1
+
+
+  # - dir: data
+  #   name: Dev1-115-176 
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.176
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: Dev1-115-177
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.177
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: Dev1-115-105
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.115.105
+  #   gw: 172.18.115.1
+
+  - dir: data
+    name: mongodb-shard-115-158
+    template: CentOS-7.3_Temp
+    ip: 172.18.115.158
+    gw: 172.18.115.1
+
+
+  - dir: data
+    name: mongodb-shard-115-159
+    template: CentOS-7.3_Temp
+    ip: 172.18.115.159
+    gw: 172.18.115.1
+
+win_info:
+
+  # - dir: data
+  #   name: Dev3-115-93
+  #   template: windows
+  #   ip: 172.18.115.93
+  #   gw: 172.18.115.1
+
+  # - dir: data
+  #   name: web-115-150
+  #   template: windows
+  #   ip: 172.18.115.150
+  #   gw: 172.18.115.1
+

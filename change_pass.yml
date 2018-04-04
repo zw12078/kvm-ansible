@@ -1,0 +1,7 @@
+---
+- name: change pass for win
+  hosts: all
+  roles:
+    - { role: Change_Pass_Linux, change_user: root, when: ansible_os_family == "RedHat" } 
+    # - { role: Change_Pass_Win,change_user: administrator, when: ansible_os_family == "Windows" } 
+      

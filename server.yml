@@ -1,0 +1,188 @@
+10.100.105.5  ansible_user=root ansible_password=admin
+10.100.105.6  ansible_user=root ansible_password=admin
+10.100.105.7  ansible_user=root ansible_password=admin
+10.100.105.21  ansible_user=root ansible_password=admin
+10.100.105.22  ansible_user=root ansible_password=admin
+10.100.105.23  ansible_user=root ansible_password=admin
+10.100.105.24 ansible_user=root ansible_password=admin
+172.18.112.6 ansible_user=root ansible_password=admin
+172.18.115.5 ansible_user=root ansible_password=admin
+172.18.115.6 ansible_user=root ansible_password=admin
+192.168.16.10 ansible_user=root ansible_password=lingyi0101@
+172.19.0.5  ansible_user=root ansible_password=admin
+172.18.114.5  ansible_user=root ansible_password=admin
+172.18.114.6  ansible_user=root ansible_password=admin
+172.18.114.7  ansible_user=root ansible_password=admin
+[4u1]
+10.100.105.5
+[4u2]
+10.100.105.6
+[4u3]
+10.100.105.7
+[4U:children]
+4u1
+4u2
+4u3
+
+[m4u1]
+10.100.105.21
+[m4u2]
+10.100.105.22
+[m4u3]
+10.100.105.23
+[m4u4]
+10.100.105.24
+
+[m4U:children]
+m4u1
+m4u2
+m4u3
+m4u4
+
+[2u1]
+172.18.115.5
+[2u2]
+172.18.115.6
+[2u3]
+172.18.112.6
+[ope:children]
+2u1
+2u2
+# 2u3
+[8u3]
+172.19.0.5
+
+
+[mdb-server1]
+172.18.114.5
+[mdb-server2]
+172.18.114.6
+[mdb-server3]
+172.18.114.7
+
+[mserver:children]
+mdb-server1
+mdb-server2
+mdb-server3
+[xingang]
+192.168.16.10
+
+######################################################################################################################################
+
+[xg-down]
+192.168.16.103
+[dzc-down]
+172.19.0.103
+[download:children]
+xg-down
+dzc-down  
+
+[vms]
+10.100.103.122
+10.100.101.11
+10.100.101.41
+10.100.101.42
+10.100.101.52
+10.100.101.64
+10.100.101.71
+10.100.101.81
+10.100.101.91
+10.100.101.101
+10.100.101.102
+10.100.101.103
+10.100.101.112
+10.100.101.122
+10.100.101.142
+10.100.101.143
+10.100.101.144
+10.100.101.145
+10.100.101.161
+10.100.101.162
+
+10.100.102.11
+10.100.102.41
+10.100.102.42
+10.100.102.52
+10.100.102.64
+10.100.102.71
+10.100.102.81
+10.100.102.82
+10.100.102.102
+10.100.102.103
+10.100.102.121
+10.100.102.122
+10.100.102.129
+10.100.102.132
+10.100.102.142
+10.100.102.143
+10.100.102.144
+10.100.102.161
+10.100.102.162
+10.100.102.181
+
+10.100.103.41
+10.100.103.42
+10.100.103.52
+10.100.103.64
+10.100.103.71
+10.100.103.82
+10.100.103.102
+10.100.103.103
+10.100.103.112
+10.100.103.122
+10.100.103.132
+10.100.103.143
+10.100.103.161
+10.100.103.162
+[mariadb]
+10.100.101.43
+10.100.102.43
+10.100.103.43
+
+10.100.101.46
+10.100.102.46
+10.100.103.46
+[mariadb:vars]
+ansible_user=root 
+ansible_password=123456
+
+
+[test]
+# 10.100.101.130
+10.100.102.130
+10.100.103.130
+
+[test:vars]
+ansible_user=root 
+ansible_password=123456
+
+[win]
+
+10.100.101.111
+10.100.101.121
+10.100.101.131
+10.100.101.141
+10.100.101.151
+10.100.101.171
+10.100.102.111
+10.100.102.131
+10.100.102.151
+10.100.102.171
+10.100.102.191
+10.100.103.121
+10.100.103.151
+10.100.103.191
+
+[win:vars]
+ansible_user=ansible
+ansible_password=123456
+ansible_ssh_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+[opedown]
+172.18.115.[65:66]
+
+[opedown:vars]
+ansible_user= root 
+ansible_password= 123456

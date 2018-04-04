@@ -1,0 +1,247 @@
+vm_info:
+  # - dir: data
+  #   name: Mariadb-114-221
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.221
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-222
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.222
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-223
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.223
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-224
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.224
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-225
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.225
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-226
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.226
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-227
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.227
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-228
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.228
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-229
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.229
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-230
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.230
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-231
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.231
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-232
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.232
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-233
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.233
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-234
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.234
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-235
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.235
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Gitlab-114.178
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.178
+  #   gw: 172.18.114.1
+
+
+#===========K8S==============
+
+  # - dir: data
+  #   name: k8s-114-240
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.240
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: k8s-114-241
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.241
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: k8s-114-242
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.242
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: k8s-114-243
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.243
+  #   gw: 172.18.114.1
+        
+  # - dir: data
+  #   name: k8s-114-244
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.244
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: k8s-114-245
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.245
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: k8s-114-246
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.246
+  #   gw: 172.18.114.1
+
+#=============openstack=================                      
+  # - dir: data
+  #   name: openstack-114.247
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.247
+  #   gw: 172.18.114.1
+                      
+  # - dir: data
+  #   name: openstack-114.246
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.246
+  #   gw: 172.18.114.1
+                
+  # - dir: data
+  #   name: openstack-114.249
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.249
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: openstack-114.250
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.250
+  #   gw: 172.18.114.1
+                      
+  # - dir: data
+  #   name: openstack-114.251
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.251
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: openstack-114.252
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.252
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: openstack-114.253
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.253
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: openstack-registry-114.230
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.230
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: openstack-deploy-114.231
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.231
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: openstack-114.232
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.232
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: openstack-114.233
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.233
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: openstack-114.234
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.234
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: openstack-114.235
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.235
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: openstack-114.236
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.236
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: openstack-114.237
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.237
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: openstack-114.238
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.238
+  #   gw: 172.18.114.1

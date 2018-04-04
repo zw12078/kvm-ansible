@@ -1,0 +1,354 @@
+vm_info:
+  # - dir: data
+  #   name: Mariadb-102-41
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.41
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: FastDFS-102-62
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.62
+  #   gw: 10.100.102.1
+    
+  # - dir: data
+    # name: Rabbitmq-102-82
+    # template: CentOS-7.3_Temp
+    # ip: 10.100.102.82
+    # gw: 10.100.102.1
+
+
+  # - dir: data
+  #   name: Redis-102-102
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.102
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Redis-102-102
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.102
+  #   gw: 10.100.102.1
+
+
+  # - dir: data
+  #   name: Dev2-102-132
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.132
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Mariadb-102-43
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.43
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Mariadb-102-44
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.44
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Mariadb-102-45
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.45
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Mariadb-102-230
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.230
+  #   gw: 10.100.102.1
+
+
+  # - dir: data
+  #   name: Redis-102-104
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.104
+  #   gw: 10.100.102.1
+
+
+  # - dir: data
+  #   name: Dev1-102-121
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.121
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: mariadb-102-146
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.146
+  #   gw: 10.100.102.1
+
+
+  # - dir: data
+  #   name: Search-102-143
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.143
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: mariadb-102-46
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.46
+  #   gw: 10.100.102.1
+
+
+  # - dir: data
+  #   name: guowei-mdb-102-148
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.148
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: guowei-cache-102-149
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.149
+  #   gw: 10.100.102.1
+
+# ###张成祥
+#   - dir: data
+#     name: zhangchengxiang-mdb-102.22
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.102.22
+#     gw: 10.100.102.1
+    
+#   - dir: data
+#     name: zhangchengxiang-102.23
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.102.23
+#     gw: 10.100.102.1
+
+#   - dir: data
+#     name: zhangchengxiang-102.24
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.102.24
+#     gw: 10.100.102.1
+
+# ###马会昌
+#   - dir: data
+#     name: mahuichang-mdb-102.25
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.102.25
+#     gw: 10.100.102.1
+
+#   - dir: data
+#     name: mahuichang-102.26
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.102.26
+#     gw: 10.100.102.1
+
+#   - dir: data
+#     name: mahuichang-102.29
+#     template: CentOS-7.3_Temp
+#     ip: 10.100.102.29
+#     gw: 10.100.102.1
+
+
+###李志
+
+
+  # - dir: data
+  #   name: lizhi-102.27
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.27
+  #   gw: 10.100.102.1 
+
+  # - dir: data
+  #   name: lizhi-mdb-102.28
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.28
+  #   gw: 10.100.102.1
+
+
+
+  # - dir: data
+  #   name: Dev2-102-133
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.133
+  #   gw: 10.100.102.1
+
+  
+  # - dir: data
+  #   name: Business-102-152
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.152
+  #   gw: 10.100.102.1
+
+
+  # - dir: data
+  #   name: test-102.130
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.130
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: download-app-102.124
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.124
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: opr-102-172
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.172
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Dev1-102-125
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.125
+  #   gw: 10.100.102.1
+
+
+  # - dir: data
+  #   name: Dev1-102-126
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.126
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Dev1-102-126
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.126
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Dev1-102-127
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.127
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: Base-102-114 
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.114
+  #   gw: 10.100.102.1 
+
+  # - dir: data
+  #   name: Base-102-115
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.115
+  #   gw: 10.100.102.1 
+
+
+  # - dir: data
+  #   name: Base-102-116
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.116
+  #   gw: 10.100.102.1 
+
+
+        #  - dir: data
+        #name: opr-102-173-zhoubinjing
+        #template: CentOS-7.3_Temp
+        #ip: 10.100.102.173
+        #gw: 10.100.102.1
+
+  # - dir: data
+  #   name: xieyadong-mqtt-102.128
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.128
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: BigData-102-164
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.164
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: daidongyun-102-233
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.233
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: BigData-102-163
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.163
+  #   gw: 10.100.102.1
+
+  # - dir: data
+  #   name: BigData-102-165
+  #   template: CentOS-7.3_Temp
+  #   ip: 10.100.102.165
+  #   gw: 10.100.102.1
+
+  #  - dir: data
+  #    name: BigData-102-166
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.102.166
+  #    gw: 10.100.102.1
+
+  #  - dir: data
+  #    name: opr-102-174 
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.102.174
+  #    gw: 10.100.102.1
+
+
+  #  - dir: data
+  #    name: Business-102-153 
+  #    template: CentOS-7.3_Temp
+  #    ip: 10.100.102.153
+  #    gw: 10.100.102.1
+
+   - dir: data
+     name: mongodb-102.53
+     template: CentOS-7.3_Temp
+     ip: 10.100.102.53
+     gw: 10.100.102.1
+
+win_info:
+#    - dir: data
+#      name: web-102-191
+#      template: windows
+#      ip: 10.100.102.191
+#      gw: 10.100.102.1
+
+  #  - dir: data
+  #    name: Dev3-102-141 
+  #    template: windows
+  #    ip: 10.100.102.141
+  #    gw: 10.100.102.1
+
+  # - dir: data
+  #   name: guowei-rpc-102-147
+  #   template: windows
+  #   ip: 10.100.102.147
+  #   gw: 10.100.102.1
+
+# ###马会昌
+#    - dir: data
+#      name: mahuichang-102-20
+#      template: windows
+#      ip: 10.100.102.20
+#      gw: 10.100.102.1
+
+# ###李志
+#    - dir: data
+#      name: lizhi-102-21
+#      template: windows
+#      ip: 10.100.102.21
+#      gw: 10.100.102.1
+
+
+  #  - dir: data
+  #    name: Dev3-102-140 
+  #    template: windows
+  #    ip: 10.100.102.140
+  #    gw: 10.100.102.1
+
+  #  - dir: data
+  #    name: Base-102-113
+  #    template: windows
+  #    ip: 10.100.102.113
+  #    gw: 10.100.102.1
+
+  #  - dir: data
+  #    name: Dev3-103-145
+  #    template: windows
+  #    ip: 10.100.102.145
+  #    gw: 10.100.102.1

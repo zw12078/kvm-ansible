@@ -1,0 +1,17 @@
+---
+- name: 开始为{{ vm_item.name }}生成配置文件...
+  template: src=win_ip.bat.j2 dest={{ txt_file }}
+
+- name: 正在转换{{ vm_item.name }}配置文件编码...
+  command: iconv {{ txt_file }} -f UTF-8 -t gb2312 -o {{ net_file }}
+
+- name: 开始创建{{ vm_item.name }}...
+  command: virt-clone -o {{ image_name }} -n {{ vm_item.name }}  -f /{{ vm_item.dir }}/GuestVM/{{ vm_item.name }}
+
+
+- name: 正在配置{{ vm_item.name }}网络...
+  shell: virt-copy-in -d {{ vm_item.name }} {{ net_file }} /
+
+- name: 正在启动 {{ vm_item.name }}...
+  shell: virsh start {{ vm_item.name }}
+

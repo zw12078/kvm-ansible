@@ -1,0 +1,136 @@
+vm_info:
+  # - dir: data
+  #   name: CentOS-7.3_Mariadb
+  #   template: CentOS
+  #   ip: 172.18.113.130
+  #   gw: 172.18.113.1
+
+  # - dir: data
+  #   name: GitLab-113.79
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.113.79
+  #   gw: 172.18.113.1
+
+
+  # - dir: data
+  #   name: wumingsheng-113.120
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.113.120
+  #   gw: 172.18.113.1
+
+
+  # - dir: data
+  #   name: guowei-113.100
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.113.100
+  #   gw: 172.18.113.1
+
+
+  # - dir: data
+  #   name: zhoubinjing-113.114
+  #   template: CentOS-7.3_Temp
+  #   ip: 172.18.113.114
+  #   gw: 172.18.113.1
+
+
+
+
+win_info:
+  # - dir: data
+  #   name: win10-zhaojianyu-112.70
+  #   template: win10
+  #   ip: 172.18.112.70
+  #   gw: 172.18.112.1
+
+  # - dir: data
+  #   name: win10-liangshaolong-112.72
+  #   template: win10
+  #   ip: 172.18.112.72
+  #   gw: 172.18.112.1
+
+  # - dir: data
+  #   name: win10-linan-112.67
+  #   template: win10
+  #   ip: 172.18.112.67
+  #   gw: 172.18.112.1
+
+  # - dir: data
+  #   name: win10-guoqiang-112.73
+  #   template: win10
+  #   ip: 172.18.112.73
+  #   gw: 172.18.112.1
+
+
+  # - dir: data
+  #   name: win2012-mahuichang-112.137
+  #   template: win10
+  #   ip: 172.18.112.137
+  #   gw: 172.18.112.1
+
+
+  # - dir: data
+  #   name: win2012-lijianli-112.138
+  #   template: win10
+  #   ip: 172.18.112.138
+  #   gw: 172.18.112.1
+
+  # - dir: data
+  #   name: win2012-wumingsheng-112.139
+  #   template: win10
+  #   ip: 172.18.112.139
+  #   gw: 172.18.112.1
+
+  # - dir: data
+  #   name: win2012-zhaolong-112.140
+  #   template: win10
+  #   ip: 172.18.112.140
+  #   gw: 172.18.112.1
+
+  # - dir: data
+  #   name: win10-zhoubinjin-112.134
+  #   template: win10
+  #   ip: 172.18.112.134
+  #   gw: 172.18.112.1
+
+
+  # - dir: data
+  #   name: win10-zhaozhibin-112.135
+  #   template: win10
+  #   ip: 172.18.112.135
+  #   gw: 172.18.112.1
+
+
+  # - dir: data
+  #   name: win10-daidongyun-112.136
+  #   template: win10
+  #   ip: 172.18.112.136
+  #   gw: 172.18.112.1
+
+
+  # - dir: data
+  #   name: win10-jiajinhui-112.141
+  #   template: win10
+  #   ip: 172.18.112.141
+  #   gw: 172.18.112.1
+
+  # - dir: data
+  #   name: win10-liuyanli-112.142
+  #   template: win10
+  #   ip: 172.18.112.142
+  #   gw: 172.18.112.1
+
+  # - dir: data
+  #   name: win10-tonglihui-112.143
+  #   template: Win10-Temp
+  #   ip: 172.18.112.143
+  #   gw: 172.18.112.1
+
+  - dir: data
+    name: win10-sunyong-112.144
+    template: Win10-Temp
+    ip: 172.18.112.144
+    gw: 172.18.112.1
+
+
+
+

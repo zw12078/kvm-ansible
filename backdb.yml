@@ -1,0 +1,12 @@
+
+[server]
+172.18.114.[21:35]    
+[server2]
+172.18.114.[121:135]  
+[server3]
+172.18.114.[221:235]  
+
+
+[all:vars]
+ansible_user=root 
+ansible_password=123456

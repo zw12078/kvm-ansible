@@ -1,0 +1,9 @@
+---
+- name: 获取当前时间
+  shell: date "+%Y-%m-%d"
+  register: time
+  
+- name: 标注修改时间...
+  local_action: lineinfile
+               dest="{{ passwd_file_path }}"  
+               line="{{ time.stdout.center(100,'=') }}"

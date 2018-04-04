@@ -1,0 +1,3 @@
+# image_name: "{{ templat }}"
+image_name: "{{ vm_item.template }}"
+file_name: /tmp/set_ip.sh

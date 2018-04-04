@@ -1,0 +1,6 @@
+---
+# defaults file for /data/roles/vm_create_windows
+# image_name: Win-2012R2_Temp
+image_name: Win10-Temp
+net_file: /tmp/win_ip.bat
+txt_file: /tmp/win_ip.txt

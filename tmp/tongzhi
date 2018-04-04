@@ -1,0 +1,46 @@
+
+李定响
+#### > Mariadb数据库密码
+- Base数据库
+
+地址         |      账号    |　密码    
+-------------|--------------|--------------
+Base-101.46  | root         | IvDnTgoFLP2cx95E21cUtmR1L+WHzufF101-46
+Base-102.46  | root         | c3RHjPAn8mpVwNY7aFqfoa9ibrmijI6N102-46
+Base-103.46  | root         | LrmX4aBfeH//xfJWQ2A05pWi3CDaCNDH103-46
+数据库 　    | root         | lingyi20170101
+
+----
+
+周宾锦
+opr-101-173 | centos | 10.100.101.173 | mariadb   数据库 ：root lingyi20170101；服务器密码：123456
+opr-102-173 | centos | 10.100.102.173 | mariadb	  数据库 ：root lingyi20170101；服务器密码：123456
+opr-103-173 | centos | 10.100.103.173 | mariadb   数据库 ：root lingyi20170101；服务器密码：123456
+
+吴明生
+IP:10.100.101.126
+User:root
+Password：rFJjfpXLMkJvVwYhJJaW4RHWBjWb4Ucw101-126
+
+IP:10.100.102.126
+User:root
+Password：brn5kRrdh/SNXoAbNqf+S9VWnnAO5iuD102-126
+
+IP:10.100.103.126
+User:root
+Password：HRHCaXQRNcJQ8uNaDWYRhuroOSbnd8VT103-126
+
+数据库用户名Dev1密码123456
+
+
+刘宝钢
+10.100.105.142 ：3306  用户名：Dev3 ，密码Dev3
+10.100.105.142 ：3307  用户名：Dev3 ，密码Dev3
+
+张贇
+
+10.100.101.152，10.10.102.152  10.100.103.152.三个组成了一个集群。
+OS:CentOS-7.3.1611 IP:10.100.101.152 User:root Password：dqRW08Ru9lSxHChbcFYZ/V5jMbplDA7M101-152
+OS:CentOS-7.3.1611 IP:10.100.102.152 User:root Password：Lqe+J49sMYVx13vJoEMp6B08Ni+tqyUV102-152
+OS:CentOS-7.3.1611 IP:10.100.103.152 User:root Password：wAnKMIFzoI334zFa8mWYGdxZLHAvV8n+103-152  
+数据库user：root  password：lingyi20170101

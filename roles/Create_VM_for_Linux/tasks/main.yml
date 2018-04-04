@@ -1,0 +1,4 @@
+---
+- name: 开始创建linux虚拟机...
+  include: idc_creare-vm.yml vm_item={{ item }}
+  with_items: "{{ vm_info }}"

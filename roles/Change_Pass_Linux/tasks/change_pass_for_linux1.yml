@@ -1,0 +1,26 @@
+---
+- name: 正在收集主机信息...
+  shell: echo {{ '-'.join(ansible_all_ipv4_addresses[0].split('.')[-2:]) }}
+  register: Linux_symbol
+
+- name: 开始生成密码...
+  local_action: command /usr/bin/openssl rand -base64 24
+  register: password
+- debug: var="password.stdout"
+  
+- name: 正在加密密码...
+  local_action: command /usr/bin/openssl passwd -1 "{{ password.stdout }}{{ Linux_symbol.stdout }}"
+  register: passwd
+
+- name: 正在更新主机密码...
+  user: name={{ change_user }} password={{ passwd.stdout }} update_password=always
+
+- name: 正在保存主机密码...
+  local_action: blockinfile 
+                dest={{ passwd_file_path }} create=yes state=present 
+                block= | 
+                OS:{{ ansible_distribution }}-{{ ansible_distribution_version }}   
+                IP:{{ inventory_hostname }}    
+                User:{{ change_user }}   
+                Password：{{ password.stdout }}{{ Linux_symbol.stdout }}
+                marker= "# {mark} ANSIBLE MANAGED BLOCK {{ inventory_hostname }}"

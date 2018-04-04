@@ -1,0 +1,70 @@
+# 如果您正在使用以下操作系统，您可以修改源修yum源改为内网源，极大的提高下载速度
+# Here is the way that it might to improve the download speed greatly
+#   by changing the "yum repos" to local repositorys
+#   when you are using the following operation system:
+# 	CentOS 7 1511
+#	CentOS 7 1611
+#
+# 所以说，这个文件很重要
+# so, this is a very important file
+# 请确保将此文件放在以下目录中：
+# please make sure putting the file "01.repo" in the floder below:
+#
+#	/etc/yum.repos.d/
+# 
+# 您可以使用以下命令
+# Following these commands please
+#
+# mkdir /data/backup-repo -p
+# mv /etc/yum.repos.d/* /data/backup-repo/
+# wget -O /etc/yum.repos.d/01.repo http://172.18.210.253/repo/01.repo
+#
+
+
+[base]
+name=base
+baseurl=http://172.18.210.253/repo/base/
+gpgcheck=0
+enabled=1
+
+[updates]
+name=updates
+baseurl=http://172.18.210.253/repo/updates/
+gpgcheck=0
+enabled=1
+
+[extras]
+name=extras
+baseurl=http://172.18.210.253/repo/extras/
+gpgcheck=0
+enabled=1
+
+[epel]
+name=epel
+baseurl=http://172.18.210.253/repo/epel/
+gpgcheck=0
+enabled=1
+
+[docker-engine]
+name=docker-engine
+baseurl=http://172.18.210.253/repo/docker-engine/
+gpgcheck=0
+enabled=1
+
+[openstack-ocata]
+name=openstack-ocata
+baseurl=http://172.18.210.253/repo/openstack-ocata/
+gpgcheck=0
+enabled=0
+
+[ceph-el7-jewel-noarch]
+name=ceph-el7-jewel-noarch
+baseurl=http://172.18.210.253/repo/ceph-el7/jewel/noarch
+gpgcheck=0
+enabled=1
+
+[ceph-el7-jewel-x86_64]
+name=ceph-el7-jewel-x86_64
+baseurl=http://172.18.210.253/repo/ceph-el7/jewel/x86_64
+gpgcheck=0
+enabled=1

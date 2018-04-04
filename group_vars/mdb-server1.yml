@@ -1,0 +1,101 @@
+vm_info:
+  # - dir: data
+  #   name: Mariadb-114-21
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.21
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-22
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.22
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-23
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.23
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-24
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.24
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-25
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.25
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-26
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.26
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-27
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.27
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-28
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.28
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-29
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.29
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-30
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.30
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-31
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.31
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-32
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.32
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-33
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.33
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-34
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.34
+  #   gw: 172.18.114.1
+
+  # - dir: data
+  #   name: Mariadb-114-35
+  #   template: CentOS-7.3_Mariadb
+  #   ip: 172.18.114.35
+  #   gw: 172.18.114.1
+
+
+  # - dir: data
+  #   name: Gitlab-114.179
+  #   template: CentOS-7.3_Base
+  #   ip: 172.18.114.179
+  #   gw: 172.18.114.1
+
+
+
+
