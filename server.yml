@@ -1,18 +1,4 @@
-10.100.105.5  ansible_user=root ansible_password=admin
-10.100.105.6  ansible_user=root ansible_password=admin
-10.100.105.7  ansible_user=root ansible_password=admin
-10.100.105.21  ansible_user=root ansible_password=admin
-10.100.105.22  ansible_user=root ansible_password=admin
-10.100.105.23  ansible_user=root ansible_password=admin
-10.100.105.24 ansible_user=root ansible_password=admin
-172.18.112.6 ansible_user=root ansible_password=admin
-172.18.115.5 ansible_user=root ansible_password=admin
-172.18.115.6 ansible_user=root ansible_password=admin
-192.168.16.10 ansible_user=root ansible_password=lingyi0101@
-172.19.0.5  ansible_user=root ansible_password=admin
-172.18.114.5  ansible_user=root ansible_password=admin
-172.18.114.6  ansible_user=root ansible_password=admin
-172.18.114.7  ansible_user=root ansible_password=admin
+
 [4u1]
 10.100.105.5
 [4u2]
